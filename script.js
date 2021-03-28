@@ -1,5 +1,5 @@
 
-//Se getCookie achar o cookie do nubMaster ele manda o usuário para a pagina home
+
 if(getCookie()){
   document.location = 'home.html';
 }
@@ -43,7 +43,6 @@ function criarCookie(user, pass, days) {
 
 
 function getCookie() {
-  // let user = form.user.value;
   let nomeCookie = 'NoobMaster69';
   let cookies = document.cookie
   let vetorCookie = cookies.split(": ")
